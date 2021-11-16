@@ -6,5 +6,3 @@ pipeline_dir: $HOME/pipeline_dir
 project_modifiers:
   import:
     - project_config1.yaml
-
-timer: *baz
