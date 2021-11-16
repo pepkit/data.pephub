@@ -9,6 +9,5 @@ anchors:
   - &property value
   - &trimmer trimmomatic
   - &setting 4
-  - &
 
 trimmer: *trimmer
