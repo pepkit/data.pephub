@@ -2,7 +2,7 @@
 Data stores for the [pephub](https://github.com/pepkit/pephub) server. All PEPs hosted with pephub can be located here. New PEP's are added via pull requests to this repository.
 
 ## Repository Structure
-All PEPs are stored in the following format: `{namespace}/{project}`. PEP's are stored inside individual namespace folders that represent teams/organizations/labs. Inside each namespace will be folders that correspond to each unique PEP:
+PEPs are stored in this reopsitory under a hierarchical folder structure, `{namespace}/{project}/`. Namespace folders represent teams/organizations/labs. Inside each namespace folder, individual folders correspond to each PEP. For example:
 
 ```
 ├── ChangLab
@@ -33,13 +33,13 @@ All PEPs are stored in the following format: `{namespace}/{project}`. PEP's are 
 ```
 
 ## The `.pephub.yaml` file
-To facilitate the generalization of data storage and allow users to stick to their own naming conventions, a `.pephub.yaml` file can be included inside indidual PEP folders to specify the PEP `project_config.yaml` file.
+By default, pephub assumes the project config will be named `project_config.yaml` (`<namespace>/<project>/project_config.yaml`). Optionally, users may use their own file naming conventions by including a `.pephub.yaml` file inside the PEP folder. The `.pephub.yaml` file should specify location of the project config like this:
 
 ```yaml
 config_file: path/to/file.yaml
 ```
-*Note: If a `.pephub.yaml` file is not specified, pephub will simply search for a `project_config.yaml` file instead, as this is the default naming convention used in the PEP documentation. As such, you can choose to omit the `.pephub.yaml` file and stick with naming your config files `project_config.yaml`.*
 
 
 ## Contributing a PEP
+
 If you would like to contribute a PEP, please do so by forking this repository and creating a pull-request where the PEP will be verified and merged.
