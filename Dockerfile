@@ -1,3 +1,3 @@
 FROM databio/pephub:latest
-COPY . /app/data
+COPY peps/ /app/data/
 ENTRYPOINT [ "pephub", "serve", "-c", "config.yaml" ]
