@@ -39,6 +39,20 @@ By default, pephub assumes the project config will be named `project_config.yaml
 config_file: path/to/file.yaml
 ```
 
+## Development
+To test/develop the server locally, **build and run** the docker containers:
+
+### Build:
+```
+docker build -t pephub .
+```
+
+### Run
+```
+docker run -p 80:80 --name pephub pephub
+```
+
+Visit http://localhost:80 to view the server.
 
 ## Contributing a PEP
 
