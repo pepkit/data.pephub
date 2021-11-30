@@ -1,13 +1,13 @@
 {
   "ipcMode": null,
   "executionRoleArn": "arn:aws:iam::235728444054:role/ecsTaskExecutionRole",
-  "cpu": "512",
+  "cpu": null,
   "memory": null,
   "family": "pephub-task",
   "containerDefinitions": [
     {
       "name": "pephub-container",      
-      "cpu": null,
+      "cpu": "512",
       "memory": 3096,
       "memoryReservation": 256,      
       "portMappings": [
