@@ -1,7 +1,7 @@
 {
   "ipcMode": null,
   "executionRoleArn": "arn:aws:iam::235728444054:role/ecsTaskExecutionRole",
-  "cpu": "128",
+  "cpu": "512",
   "memory": null,
   "family": "pephub-task",
   "containerDefinitions": [
