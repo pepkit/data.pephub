@@ -1,0 +1,9 @@
+on: pull_request
+
+jobs:
+  validate_peps:
+    name: Validate PEPs
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          # rn validation script
