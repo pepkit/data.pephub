@@ -6,10 +6,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Valdiate PEPs
       - uses: actions/setup-python@v2
         with:
           python-version: '3.8' # Version range or exact version of a Python version to use, using SemVer's version range syntax
-      - name: Valdiate PEPs
+      - name: Install dependencies
       - run: |
           pip install -r ${{ github.workspace }}/scripts/requirements.txt
+      - name: Validate PEPs
+      - run: |
           python ${{ github.workspace }}/scripts/validate_peps.py --schema ${{ github.workspace }}/schemas.yaml --peps ${{ github.workspace }}/peps
