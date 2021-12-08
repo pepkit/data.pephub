@@ -1,3 +1,6 @@
 FROM databio/pephub:latest
-COPY peps/ /app/data/
+COPY peps/ /app/peps/
+COPY config.yaml /app
+COPY schemas.yaml /app
+RUN mkdir /app/uploads
 ENTRYPOINT [ "pephub", "serve", "-c", "config.yaml" ]
