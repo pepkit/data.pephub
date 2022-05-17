@@ -1,0 +1,21 @@
+#Archive/File	Name	Time	Size	Type
+Archive	GSE131257_RAW.tar	10/07/2020 11:03:39	1234585600	TAR
+File	GSM3768170_WT_HBVneg_rep1.genes.results.txt.gz	05/15/2019 10:17:06	561243	TXT
+File	GSM3768171_WT_HBVpos_rep1.genes.results.txt.gz	05/15/2019 10:17:06	561862	TXT
+File	GSM3768172_KD_HBVneg_rep1.genes.results.txt.gz	05/15/2019 10:17:06	563393	TXT
+File	GSM3768173_KD_HBVpos_rep1.genes.results.txt.gz	05/15/2019 10:17:06	562655	TXT
+File	GSM3768174_KD_HBVpos_SOR_rep1.genes.results.txt.gz	05/15/2019 10:17:06	560662	TXT
+File	GSM3768175_WT_HBVneg_rep2.genes.results.txt.gz	05/15/2019 10:17:07	560259	TXT
+File	GSM3768176_WT_HBVpos_rep2.genes.results.txt.gz	05/15/2019 10:17:07	564010	TXT
+File	GSM3768177_KD_HBVneg_rep2.genes.results.txt.gz	05/15/2019 10:17:07	563034	TXT
+File	GSM3768178_KD_HBVpos_rep2.genes.results.txt.gz	05/15/2019 10:17:07	562896	TXT
+File	GSM3768179_KD_HBVpos_SOR_rep2.genes.results.txt.gz	05/15/2019 10:17:07	562475	TXT
+File	GSM3768180_WT_HBVneg_rep3.genes.results.txt.gz	05/15/2019 10:17:07	561033	TXT
+File	GSM3768181_WT_HBVpos_rep3.genes.results.txt.gz	05/15/2019 10:17:07	560235	TXT
+File	GSM3768182_KD_HBVneg_rep3.genes.results.txt.gz	05/15/2019 10:17:08	559288	TXT
+File	GSM3768183_KD_HBVpos_rep3.genes.results.txt.gz	05/15/2019 10:17:08	562530	TXT
+File	GSM3768184_KD_HBVpos_SOR_rep3.genes.results.txt.gz	05/15/2019 10:17:08	559635	TXT
+File	GSM4818343_WT_HBVneg_rep1.bw	09/28/2020 23:35:54	302389681	BW
+File	GSM4818344_WT_HBVneg_rep2.bw	09/28/2020 23:36:06	320832646	BW
+File	GSM4818345_KD_HBVneg_rep1.bw	09/28/2020 23:36:09	309795227	BW
+File	GSM4818346_KD_HBVneg_rep2.bw	09/28/2020 23:36:11	293125729	BW

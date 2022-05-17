@@ -1,0 +1,8 @@
+#Archive/File	Name	Time	Size	Type
+Archive	GSE110634_RAW.tar	09/12/2018 11:18:50	2170880	TAR
+File	GSM3004605_sample_1_ReadsPerGene.out.tab.gz	02/14/2018 16:44:39	362072	TAB
+File	GSM3004606_sample_2_ReadsPerGene.out.tab.gz	02/14/2018 16:44:39	358958	TAB
+File	GSM3004607_sample_3_ReadsPerGene.out.tab.gz	02/14/2018 16:44:39	352412	TAB
+File	GSM3004608_sample_4_ReadsPerGene.out.tab.gz	02/14/2018 16:44:39	356521	TAB
+File	GSM3004609_sample_5_ReadsPerGene.out.tab.gz	02/14/2018 16:44:39	363729	TAB
+File	GSM3004610_sample_6_ReadsPerGene.out.tab.gz	02/14/2018 16:44:39	365928	TAB

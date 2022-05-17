@@ -1,0 +1,4 @@
+#Archive/File	Name	Time	Size	Type
+Archive	GSE130205_RAW.tar	04/30/2020 16:59:59	3665920	TAR
+File	GSM3733773_AllenGROnucdmso_peaks_clean.broadPeak.gz	04/23/2019 12:11:24	2064599	BROADPEAK
+File	GSM3733774_AllenGROnucnutlin_peaks_clean.broadPeak.gz	04/23/2019 12:11:24	1589740	BROADPEAK

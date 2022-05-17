@@ -1,0 +1,6 @@
+#Archive/File	Name	Time	Size	Type
+Archive	GSE107017_RAW.tar	08/07/2018 12:00:04	448593920	TAR
+File	GSM2859809_normalized_T47D_sictrl_rep1.bw	06/30/2017 09:31:31	126249873	BW
+File	GSM2859810_normalized_T47D_sictrl_rep2.bw	06/30/2017 09:32:14	117082916	BW
+File	GSM2859811_normalized_T47D_sitrps1_rep1.bw	06/30/2017 09:32:51	103285458	BW
+File	GSM2859812_normalized_T47D_sitrps1_rep2.bw	06/30/2017 09:33:26	101970068	BW

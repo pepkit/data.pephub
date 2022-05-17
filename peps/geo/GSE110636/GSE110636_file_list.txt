@@ -1,0 +1,27 @@
+#Archive/File	Name	Time	Size	Type
+Archive	GSE110636_RAW.tar	09/12/2018 11:18:51	10096640	TAR
+File	GSM3004620_sample_4_ReadsPerGene.out.tab.gz	02/14/2018 16:47:37	403599	TAB
+File	GSM3004621_sample_5_ReadsPerGene.out.tab.gz	02/14/2018 16:47:37	399119	TAB
+File	GSM3004622_sample_10_ReadsPerGene.out.tab.gz	02/14/2018 16:47:37	402387	TAB
+File	GSM3004623_sample_11_ReadsPerGene.out.tab.gz	02/14/2018 16:47:37	398371	TAB
+File	GSM3004624_sample_12_ReadsPerGene.out.tab.gz	02/14/2018 16:47:37	402498	TAB
+File	GSM3004625_sample_13_ReadsPerGene.out.tab.gz	02/14/2018 16:47:38	398385	TAB
+File	GSM3004626_sample_14_ReadsPerGene.out.tab.gz	02/14/2018 16:47:38	407571	TAB
+File	GSM3004627_sample_17_ReadsPerGene.out.tab.gz	02/14/2018 16:47:38	398136	TAB
+File	GSM3004628_sample_19_ReadsPerGene.out.tab.gz	02/14/2018 16:47:38	399748	TAB
+File	GSM3004629_sample_20_ReadsPerGene.out.tab.gz	02/14/2018 16:47:38	407474	TAB
+File	GSM3004630_sample_21_ReadsPerGene.out.tab.gz	02/14/2018 16:47:38	399447	TAB
+File	GSM3004631_sample_23_ReadsPerGene.out.tab.gz	02/14/2018 16:47:38	403816	TAB
+File	GSM3004632_sample_27_ReadsPerGene.out.tab.gz	02/14/2018 16:47:39	396166	TAB
+File	GSM3004633_sample_28_ReadsPerGene.out.tab.gz	02/14/2018 16:47:39	404794	TAB
+File	GSM3004634_sample_29_ReadsPerGene.out.tab.gz	02/14/2018 16:47:39	401551	TAB
+File	GSM3004635_sample_32_ReadsPerGene.out.tab.gz	02/14/2018 16:47:39	402860	TAB
+File	GSM3004636_sample_33_ReadsPerGene.out.tab.gz	02/14/2018 16:47:39	396126	TAB
+File	GSM3004637_sample_36_ReadsPerGene.out.tab.gz	02/14/2018 16:47:39	418526	TAB
+File	GSM3004638_sample_41_ReadsPerGene.out.tab.gz	02/14/2018 16:47:39	404671	TAB
+File	GSM3004639_sample_44_ReadsPerGene.out.tab.gz	02/14/2018 16:47:40	404993	TAB
+File	GSM3004640_sample_48_ReadsPerGene.out.tab.gz	02/14/2018 16:47:40	396612	TAB
+File	GSM3004641_sample_49_ReadsPerGene.out.tab.gz	02/14/2018 16:47:40	401690	TAB
+File	GSM3004642_sample_54_ReadsPerGene.out.tab.gz	02/14/2018 16:47:40	401818	TAB
+File	GSM3004643_sample_56_ReadsPerGene.out.tab.gz	02/14/2018 16:47:40	403026	TAB
+File	GSM3004644_sample_60_ReadsPerGene.out.tab.gz	02/14/2018 16:47:40	418685	TAB
