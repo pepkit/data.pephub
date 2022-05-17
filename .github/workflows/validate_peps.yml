@@ -11,4 +11,4 @@ jobs:
           python-version: '3.8' # Version range or exact version of a Python version to use, using SemVer's version range syntax
       - run: |
           pip install -r ${{ github.workspace }}/scripts/requirements.txt
-          python ${{ github.workspace }}/validate_peps.py --schema ${{ github.workspace }}/schemas.yaml --peps ${{ github.workspace }}/peps
+          python ${{ github.workspace }}/scripts/validate_peps.py --schema ${{ github.workspace }}/schemas.yaml --peps ${{ github.workspace }}/peps
