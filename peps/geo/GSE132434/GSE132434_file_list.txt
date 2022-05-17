@@ -1,0 +1,4 @@
+#Archive/File	Name	Time	Size	Type
+Archive	GSE132434_RAW.tar	10/15/2019 10:55:33	92979200	TAR
+File	GSM3863306_ATAC-shCTRL_uniq_nodup.sort.wig.gz	06/10/2019 08:48:35	24147189	WIG
+File	GSM3863307_ATAC-shNR2F2_uniq_nodup.sort.wig.gz	06/10/2019 08:48:54	68822977	WIG
