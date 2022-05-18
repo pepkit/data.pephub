@@ -1,5 +1,0 @@
-#Archive/File	Name	Time	Size	Type
-Archive	GSE73874_RAW.tar	07/03/2017 13:28:22	412979200	TAR
-File	GSM1904729_PC9_Parental.trim.multi.sort.nuc.rmdup.bed.WIN150.STEP20.COUNT.bw	09/30/2015 12:53:20	136233222	BW
-File	GSM1904730_PC9_DTP.trim.multi.sort.nuc.rmdup.bed.WIN150.STEP20.COUNT.bw	09/30/2015 12:52:58	133054754	BW
-File	GSM1904731_PC9_DTP_TSA.trim.multi.sort.nuc.rmdup.bed.WIN150.STEP20.COUNT.bw	09/30/2015 12:53:09	143681822	BW
