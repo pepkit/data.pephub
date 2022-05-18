@@ -1,4 +1,0 @@
-#Archive/File	Name	Time	Size	Type
-Archive	GSE82330_RAW.tar	07/08/2016 07:32:31	218132480	TAR
-File	GSM2190573_A375_shNT_ATAC_nucleosome_signal.bedGraph.gz	06/07/2016 11:00:33	115395576	BEDGRAPH
-File	GSM2190574_A375_shIno80_ATAC_nucleosome_signal.bedGraph.gz	06/07/2016 11:01:11	102724903	BEDGRAPH

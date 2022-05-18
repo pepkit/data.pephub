@@ -1,5 +1,0 @@
-#Archive/File	Name	Time	Size	Type
-Archive	GSE114397_RAW.tar	05/15/2018 11:47:01	71065600	TAR
-File	GSM3141014_Zeb1_Dox.tsv.gz	05/10/2018 20:29:26	11349982	TSV
-File	GSM3141015_ATACseq_peaks_motifs_meta.txt.gz	05/14/2018 10:12:15	487	TXT
-File	GSM3141015_HMLE_ATACseq_peaks_motifs.tsv.gz	05/11/2018 00:32:33	59710900	TSV

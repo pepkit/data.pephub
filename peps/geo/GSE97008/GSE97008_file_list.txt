@@ -1,4 +1,0 @@
-#Archive/File	Name	Time	Size	Type
-Archive	GSE97008_RAW.tar	09/15/2017 11:40:00	8366080	TAR
-File	GSM2549747_hpne_sorted_mdup_peaks.xls.gz	03/24/2017 12:10:54	3463556	XLS
-File	GSM2549748_jd_sorted_mdup_peaks.xls.gz	03/24/2017 12:10:55	4893148	XLS
