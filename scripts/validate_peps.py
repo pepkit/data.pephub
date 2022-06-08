@@ -54,17 +54,17 @@ def _extract_project_file_name(path_to_proj: str) -> str:
     Take a given path to a PEP/project inside a namespace and
     return the name of the PEP configuration file. The process
     is completed in the following steps:
-        1. Look for a .pephub.yaml file
+        1. Look for a .pep.yaml file
             if exists -> check for config_file attribute
             else step two
         2. Look for project_config.yaml
             if exists -> return path
             else step 3
-        3. If no .pephub.yaml file with config_file attribute exists AND
+        3. If no .pep.yaml file with config_file attribute exists AND
            no porject_config.yaml file exists, then return None.
     """
     try:
-        with open(f"{path_to_proj}/.pephub.yaml", "r") as stream:
+        with open(f"{path_to_proj}/.pep.yaml", "r") as stream:
             _pephub_yaml = yaml.safe_load(stream)
 
         # check for config_file attribute
@@ -74,11 +74,11 @@ def _extract_project_file_name(path_to_proj: str) -> str:
             # look for regular project_config.yaml 
             if not os.path.exists(f"{path_to_proj}/project_config.yaml"):
                 raise ValueError(f"Cannot find project configuration file for {path_to_proj}. \
-                                   Please include a project_config.yaml or .pephub.yaml file. \
+                                   Please include a project_config.yaml or .pep.yaml file. \
                                    See https://github.com/pepkit/pephub.databio.org for more information.")
             else: return "project_config.yaml"
 
-    # catch no .pephub.yaml exists
+    # catch no .pep.yaml exists
     except FileNotFoundError:
         if not os.path.exists(f"{path_to_proj}/project_config.yaml"):
             return None
