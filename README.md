@@ -32,8 +32,8 @@ PEPs are stored in this reopsitory under a hierarchical folder structure, `{name
     │   └── sample_table.csv
 ```
 
-## The `.pephub.yaml` file
-By default, pephub assumes the project config will be named `project_config.yaml` (`<namespace>/<project>/project_config.yaml`). Optionally, users may use their own file naming conventions by including a `.pephub.yaml` file inside the PEP folder. The `.pephub.yaml` file should specify location of the project config like this:
+## The `.pep.yaml` file
+By default, pephub assumes the project config will be named `project_config.yaml` (`<namespace>/<project>/project_config.yaml`). Optionally, users may use their own file naming conventions by including a `.pep.yaml` file inside the PEP folder. The `.pep.yaml` file should specify location of the project config like this:
 
 ```yaml
 config_file: path/to/file.yaml
