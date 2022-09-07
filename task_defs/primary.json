@@ -17,7 +17,36 @@
           "containerPort": 80
         }
       ],
-      "secrets": null,
+      "secrets": [
+        {
+          "valueFrom": "POSTGRES_HOST_AWS",
+          "name": "POSTGRES_HOST"
+        },
+        {
+          "valueFrom": "PEPHUB_POSTGRES_DB",
+          "name": "POSTGRES_DB"
+        },
+        {
+          "valueFrom": "PEPHUB_POSTGRES_PASSWORD",
+          "name": "POSTGRES_PASSWORD"
+        },
+        {
+          "valueFrom": "PEPHUB_POSTGRES_USER",
+          "name": "POSTGRES_USER"
+        },
+        {
+          "valueFrom": "PEPHUB_GH_CLIENT_ID",
+          "name": "GH_CLIENT_ID"
+        },
+        {
+          "valueFrom": "PEPHUB_GH_CLIENT_SECRET",
+          "name": "GH_CLIENT_SECRET"
+        },
+        {
+          "valueFrom": "PEPHUB_GH_REDIRECT_URI",
+          "name": "REDIRECT_URI"
+        }
+      ],
       "dnsSearchDomains": null,
       "environmentFiles": null,
       "logConfiguration": null,
