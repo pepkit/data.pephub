@@ -45,6 +45,22 @@
         {
           "valueFrom": "PEPHUB_GH_REDIRECT_URI",
           "name": "REDIRECT_URI"
+        },
+        {
+          "valueFrom": "QDRANT_PORT",
+          "name": "QDRANT_PORT"
+        },
+        {
+          "valueFrom": "QDRANT_ENABLED",
+          "name": "QDRANT_ENABLED"
+        },
+        {
+          "valueFrom": "QDRANT_COLLECTION",
+          "name": "QDRANT_COLLECTION"
+        },
+        {
+          "valueFrom": "QDRANT_API_KEY",
+          "name": "QDRANT_API_KEY"
         }
       ],
       "dnsSearchDomains": null,
