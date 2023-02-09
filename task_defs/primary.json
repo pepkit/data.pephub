@@ -7,9 +7,9 @@
   "containerDefinitions": [
     {
       "name": "pephub-container",      
-      "cpu": "512",
-      "memory": 3096,
-      "memoryReservation": 256,      
+      "cpu": "1024",
+      "memory": 6096,
+      "memoryReservation": 512,      
       "portMappings": [
         {
           "hostPort": 8120,
