@@ -73,7 +73,7 @@
       "entryPoint": null,
       "command": null,
       "linuxParameters": null,
-      "environment": [],
+      "environment": [{"name": "UVICORN_LOG_LEVEL", "value": "DEBUG"}],
       "resourceRequirements": null,
       "ulimits": null,
       "dnsServers": null,
