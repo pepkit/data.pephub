@@ -73,7 +73,7 @@
       "entryPoint": null,
       "command": null,
       "linuxParameters": null,
-      "environment": [{"name": "UVICORN_LOG_LEVEL", "value": "trace"}],
+      "environment": null,
       "resourceRequirements": null,
       "ulimits": null,
       "dnsServers": null,
