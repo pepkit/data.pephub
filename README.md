@@ -1,59 +1,15 @@
-# data.pephub
-Data stores for the [pephub](https://github.com/pepkit/pephub) server. All PEPs hosted with pephub can be located here. New PEP's are added via pull requests to this repository.
-
-## Repository Structure
-PEPs are stored in this reopsitory under a hierarchical folder structure, `{namespace}/{project}/`. Namespace folders represent teams/organizations/labs. Inside each namespace folder, individual folders correspond to each PEP. For example:
-
-```
-├── ChangLab
-│   ├── PEP_1
-│   │   ├── 180113_mergeTable.csv
-│   │   ├── README.md
-│   │   ├── TCGA_AllSamples_FinalBamList_annotation.csv
-│   │   └── TCGA_AllSamples_FinalBamList_config.yaml
-│   └── PEP_2
-│       ├── 180113_mergeTable.csv
-│       ├── README.md
-│       ├── TCGA_AllSamples_FinalBamList_annotation.csv
-│       └── TCGA_AllSamples_FinalBamList_config.yaml
-└── demo
-    ├── BiocProject
-    │   ├── data
-    │   │   ├── laminB1Lads.bed
-    │   │   └── vistaEnhancers.bed
-    │   ├── project_config.yaml
-    │   ├── project_config_resize.yaml
-    │   ├── readBedFiles.R
-    │   ├── readBedFiles_resize.R
-    │   └── sample_table.csv
-    ├── BiocProject_exceptions
-    │   ├── project_config.yaml
-    │   ├── readBedFilesExceptions.R
-    │   └── sample_table.csv
-```
-
-## The `.pep.yaml` file
-By default, pephub assumes the project config will be named `project_config.yaml` (`<namespace>/<project>/project_config.yaml`). Optionally, users may use their own file naming conventions by including a `.pep.yaml` file inside the PEP folder. The `.pep.yaml` file should specify location of the project config like this:
-
-```yaml
-config_file: path/to/file.yaml
-```
+# pephub.databio.org
+This is the publically available instance of [PEPhub](https://github.com/pepkit/pephub) provided by the Sheffield lab. You can view the deployed instance at https://pephub.databio.org
 
 ## Development
-To test/develop the server locally, **build and run** the docker containers:
-
-### Build:
+### Build the container
 ```
-docker build -t pephub .
+docker build -t pephub.databio.org .
 ```
 
-### Run
-```
-docker run -p 80:80 --name pephub pephub
-```
+### Launch
+PEPhub requires many parameters to run. You can read more about those [here](https://github.com/pepkit/pephub/blob/master/docs/server-settings.md). These must be injected as environment variables. You can manually do this and inject one-by-one. There is an example script in this repo called [launch_docker.sh](launch_docker.sh).
 
-Visit http://localhost:80 to view the server.
-
-## Contributing a PEP
-
-If you would like to contribute a PEP, please do so by forking this repository and creating a pull-request where the PEP will be verified and merged.
+ ```
+ launch_docker.sh
+ ```
