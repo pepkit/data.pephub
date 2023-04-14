@@ -47,6 +47,10 @@
           "name": "REDIRECT_URI"
         },
         {
+          "valueFrom": "PEPHUB_BASE_URI",
+          "name": "BASE_URI"
+        },
+        {
           "valueFrom": "QDRANT_HOST",
           "name": "QDRANT_HOST"
         },
